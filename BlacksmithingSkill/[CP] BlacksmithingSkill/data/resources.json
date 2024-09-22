@@ -1,0 +1,128 @@
+{
+	"Changes": [
+	{
+		"LogName": "Resources",
+        "Action": "EditData",
+		"Target": "Mods/mistyspring.ItemExtensions/Resources",
+		"Entries": {
+			"MistressAutumn.BlacksmithingSkill_TinNode": {
+				"Texture": "Mods\\MistressAutumn.BlacksmithingSkill.CP\\OreNodes",
+				"SpriteIndex": 0,
+				"Width": 1,
+				"Height": 1,
+				"Health": 3,
+				"Sound": "hammer",
+				"BreakingSound": "stoneCrack",
+				"Debris": "stone",
+				"ItemDropped": "(O)MistressAutumn.BlacksmithingSkill_TinOre",
+				"Tool": "Pickaxe",
+				"MinDrops": 1,
+				"MaxDrops": 3,
+				"Exp": 5,
+				"MineSpawns":[
+				{
+					"Floors": "1/39",
+					"SpawnFrequency": 0.005,
+					"AdditionalChancePerLevel": 0.0005,
+					"Condition": null,
+					"Type":"Normal"
+				},
+				{
+					"Floors": "121/-999",
+					"SpawnFrequency": 0.005,
+					"AdditionalChancePerLevel": 0.0005,
+					"Condition": null,
+					"Type":"Normal"
+				}
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_NickelNode": {
+				"Texture": "Mods\\MistressAutumn.BlacksmithingSkill.CP\\OreNodes",
+				"SpriteIndex": 1,
+				"Width": 1,
+				"Height": 1,
+				"Health": 4,
+				"Sound": "hammer",
+				"BreakingSound": "stoneCrack",
+				"Debris": "stone",
+				"ItemDropped": "(O)MistressAutumn.BlacksmithingSkill_NickelOre",
+				"Tool": "Pickaxe",
+				"MinDrops": 1,
+				"MaxDrops": 3,
+				"Exp": 12,
+				"MineSpawns":[
+				{
+					"Floors": "41/79",
+					"SpawnFrequency": 0.005,
+					"AdditionalChancePerLevel": 0.0005,
+					"Condition": null,
+					"Type":"Normal"
+				},
+				{
+					"Floors": "121/-999",
+					"SpawnFrequency": 0.005,
+					"AdditionalChancePerLevel": 0.0005,
+					"Condition": null,
+					"Type":"Normal"
+				}
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_ChromeNode": {
+				"Texture": "Mods\\MistressAutumn.BlacksmithingSkill.CP\\OreNodes",
+				"SpriteIndex": 2,
+				"Width": 1,
+				"Height": 1,
+				"Health": 8,
+				"Sound": "hammer",
+				"BreakingSound": "stoneCrack",
+				"Debris": "stone",
+				"ItemDropped": "(O)MistressAutumn.BlacksmithingSkill_ChromeOre",
+				"Tool": "Pickaxe",
+				"MinDrops": 1,
+				"MaxDrops": 3,
+				"Exp": 18,
+				"MineSpawns":[
+				{
+					"Floors": "81/119",
+					"SpawnFrequency": 0.005,
+					"AdditionalChancePerLevel": 0.0005,
+					"Condition": null,
+					"Type":"Normal"
+				},
+				{
+					"Floors": "121/-999",
+					"SpawnFrequency": 0.005,
+					"AdditionalChancePerLevel": 0.0005,
+					"Condition": null,
+					"Type":"Normal"
+				}
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_TungstenNode": {
+				"Texture": "Mods\\MistressAutumn.BlacksmithingSkill.CP\\OreNodes",
+				"SpriteIndex": 3,
+				"Width": 1,
+				"Height": 1,
+				"Health": 16,
+				"Sound": "hammer",
+				"BreakingSound": "stoneCrack",
+				"Debris": "stone",
+				"ItemDropped": "(O)MistressAutumn.BlacksmithingSkill_TungstenOre",
+				"Tool": "Pickaxe",
+				"MinDrops": 1,
+				"MaxDrops": 3,
+				"Exp": 50,
+				"MineSpawns":[
+				{
+					"Floors": "121/-999",
+					"SpawnFrequency": 0.00025,
+					"AdditionalChancePerLevel": 0.000025,
+					"Condition": null,
+					"Type":"Normal"
+				}
+				]
+			}
+		}
+    }
+	]
+}

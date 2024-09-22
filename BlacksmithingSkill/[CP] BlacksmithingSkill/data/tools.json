@@ -1,0 +1,284 @@
+{
+	"Changes": [
+	{
+		"LogName": "Editing Copper Tools",
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "CopperAxe" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_CopperAxe}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "CopperPickaxe" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_CopperPickaxe}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "CopperHoe" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_CopperHoe}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "CopperWateringCan" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_CopperWateringCan}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "Pan" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_CopperPan}}",
+			"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_CopperPanDescription}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "CopperTrashCan" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_CopperTrash}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "CopperTrashCan", "UpgradeFrom", "#0"],
+		"Entries": {
+			"TradeItemId": "(O)MistressAutumn.BlacksmithingSkill_BronzeBar"
+		}
+	},
+	{
+		"LogName": "Editing Steel Tools",
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "SteelAxe" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_SteelAxe}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "SteelPickaxe" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_SteelPickaxe}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "SteelHoe" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_SteelHoe}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "SteelWateringCan" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_SteelWateringCan}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "SteelPan" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_SteelPan}}",
+			"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_SteelPanDescription}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "SteelTrashCan" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_SteelTrash}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "SteelTrashCan", "UpgradeFrom", "#0"],
+		"Entries": {
+			"TradeItemId": "(O)MistressAutumn.BlacksmithingSkill_SteelBar"
+		}
+	},
+	{
+		"LogName": "Editing Gold Tools",
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "GoldAxe" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_GoldAxe}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "GoldPickaxe" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_GoldPickaxe}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "GoldHoe" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_GoldHoe}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "GoldWateringCan" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_GoldWateringCan}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "GoldPan" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_GoldPan}}",
+			"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_GoldPanDescription}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "GoldTrashCan" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_GoldTrash}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "GoldTrashCan", "UpgradeFrom", "#0"],
+		"Entries": {
+			"TradeItemId": "(O)MistressAutumn.BlacksmithingSkill_StainlessSteelBar"
+		}
+	},
+	{
+		"LogName": "Editing Iridium Tools",
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "IridiumAxe" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_IridiumAxe}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "IridiumPickaxe" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_IridiumPickaxe}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "IridiumHoe" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_IridiumHoe}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "IridiumWateringCan" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_IridiumWateringCan}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "IridiumPan" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_IridiumPan}}",
+			"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_IridiumPanDescription}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "IridiumTrashCan" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_IridiumTrash}}",
+			"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+			"ApplyUpgradeLevelToDisplayName": false
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Tools",
+		"TargetField": [ "IridiumTrashCan", "UpgradeFrom", "#0"],
+		"Entries": {
+			"TradeItemId": "(O)MistressAutumn.BlacksmithingSkill_TungstensteelBar"
+		}
+	},
+	]
+}

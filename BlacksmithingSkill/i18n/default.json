@@ -1,0 +1,20 @@
+{
+  "skill.name": "Smithing",
+  "skill.perk": "+1 Smithing Procifiency",
+  "skill.perk_bonus": "+{{bonus}} Smithing Procifiency",
+
+  "Smithing5a.name": "Stylish Finish",
+  "Smithing5a.desc": "Crafted weapons worth 25% more.",
+  "Smithing5b.name": "Practical Finish",
+  "Smithing5b.desc": "Crafted weapons have +2 Attack.",
+  "Smithing10a1.name": "Expert Smith",
+  "Smithing10a1.desc": "Crafted weapons worth 50% more.",
+  "Smithing10a2.name": "Resourceful Smith",
+  "Smithing10a2.desc": "Chance to save resources when smithing.",
+  "Smithing10b1.name": "Luxury Grips",
+  "Smithing10b1.desc": "Crafted weapons have +2 Speed.",
+  "Smithing10b2.name": "Luxury Padding",
+  "Smithing10b2.desc": "Crafted weapons have +2 Defense.",
+
+  "BlacksmithingSkill_Anvil.desc": "Can be used for crushing ore and smithing gear."
+}

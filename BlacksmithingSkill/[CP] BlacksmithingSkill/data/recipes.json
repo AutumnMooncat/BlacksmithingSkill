@@ -1,0 +1,204 @@
+{
+	"Changes": [
+	{
+		"LogName": "Load Recipes",
+		"Action": "EditData",
+		"Target": "Data/CraftingRecipes",
+		"Entries": {
+			"MistressAutumn.BlacksmithingSkill_CokeOven": "330 1 390 20/Home/MistressAutumn.BlacksmithingSkill_CokeOven/true/default",
+			"MistressAutumn.BlacksmithingSkill_AlloySmelter": "334 4 390 10/Home/MistressAutumn.BlacksmithingSkill_AlloySmelter/true/default",
+			"MistressAutumn.BlacksmithingSkill_Generator": "MistressAutumn.BlacksmithingSkill_InvarBar 3 390 20/Home/MistressAutumn.BlacksmithingSkill_Generator/true/default",
+			"MistressAutumn.BlacksmithingSkill_PBF": "MistressAutumn.BlacksmithingSkill_BronzeBar 4 330 1/Home/MistressAutumn.BlacksmithingSkill_PBF/true/default",
+			"MistressAutumn.BlacksmithingSkill_Grinder": "MistressAutumn.BlacksmithingSkill_SteelBar 5 390 25 72 1/Home/MistressAutumn.BlacksmithingSkill_Grinder/true/default",
+			"MistressAutumn.BlacksmithingSkill_EBF": "MistressAutumn.BlacksmithingSkill_StainlessSteelBar 8 390 50/Home/MistressAutumn.BlacksmithingSkill_EBF/true/default",
+			
+			"MistressAutumn.BlacksmithingSkill_SmithingAnvil": "MistressAutumn.BlacksmithingSkill_SteelBar 15/Home/MistressAutumn.BlacksmithingSkill_SmithingAnvil/false/default/{{i18n:MistressAutumn.BlacksmithingSkill_SmithingAnvil}}/(F)",
+			
+			"MistressAutumn.BlacksmithingSkill_BronzeDust": "MistressAutumn.BlacksmithingSkill_CopperDust 3 MistressAutumn.BlacksmithingSkill_TinDust 1/Home/MistressAutumn.BlacksmithingSkill_BronzeDust 4/false/default",
+			"MistressAutumn.BlacksmithingSkill_InvarDust": "MistressAutumn.BlacksmithingSkill_IronDust 2 MistressAutumn.BlacksmithingSkill_NickelDust 1/Home/MistressAutumn.BlacksmithingSkill_InvarDust 3/false/default",
+			"MistressAutumn.BlacksmithingSkill_StainlessSteelDust": "MistressAutumn.BlacksmithingSkill_IronDust 6 MistressAutumn.BlacksmithingSkill_NickelDust 1 MistressAutumn.BlacksmithingSkill_ChromeDust 1/Home/MistressAutumn.BlacksmithingSkill_StainlessSteelDust 8/false/default",
+			//"MistressAutumn.BlacksmithingSkill_TungstenSteelDust": "MistressAutumn.BlacksmithingSkill_SteelDust 4 MistressAutumn.BlacksmithingSkill_TungstenDust 1/Home/MistressAutumn.BlacksmithingSkill_TungstenSteelDust 5/false/default",
+			
+			"MistressAutumn.BlacksmithingSkill_CopperDust": "378 5/Home/MistressAutumn.BlacksmithingSkill_CopperDust 1/false/default",
+			"MistressAutumn.BlacksmithingSkill_IronDust": "380 5/Home/MistressAutumn.BlacksmithingSkill_IronDust 1/false/default",
+			"MistressAutumn.BlacksmithingSkill_GoldDust": "384 5/Home/MistressAutumn.BlacksmithingSkill_GoldDust 1/false/default",
+			"MistressAutumn.BlacksmithingSkill_IridiumDust": "386 5/Home/MistressAutumn.BlacksmithingSkill_IridiumDust 1/false/default",
+			"MistressAutumn.BlacksmithingSkill_RadioactiveDust": "909 5/Home/MistressAutumn.BlacksmithingSkill_RadioactiveDust 1/false/default",
+			"MistressAutumn.BlacksmithingSkill_TinDust": "MistressAutumn.BlacksmithingSkill_TinOre 5/Home/MistressAutumn.BlacksmithingSkill_TinDust 1/false/default",
+			"MistressAutumn.BlacksmithingSkill_NickelDust": "MistressAutumn.BlacksmithingSkill_NickelOre 5/Home/MistressAutumn.BlacksmithingSkill_NickelDust 1/false/default",
+			"MistressAutumn.BlacksmithingSkill_ChromeDust": "MistressAutumn.BlacksmithingSkill_ChromeOre 5/Home/MistressAutumn.BlacksmithingSkill_ChromeDust 1/false/default",
+			"MistressAutumn.BlacksmithingSkill_TungstenDust": "MistressAutumn.BlacksmithingSkill_TungstenOre 5/Home/MistressAutumn.BlacksmithingSkill_TungstenDust 1/false/default",
+			
+			"MistressAutumn.BlacksmithingSkill_SteelSmallsword": "335 2 388 3/Home/11/false/default/{{i18n:MistressAutumn.BlacksmithingSkill_SteelSmallsword_Name}}/(W)",
+			"MistressAutumn.BlacksmithingSkill_PiratesSword": "335 2 709 2/Home/43/false/default/[LocalizedText Strings\\Weapons:PiratesSword_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_Cutlass": "335 3 388 3/Home/44/false/MistressAutumn.Blacksmithing 1/[LocalizedText Strings\\Weapons:Cutlass_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_IronEdge": "335 3 388 3/Home/6/false/MistressAutumn.Blacksmithing 1/[LocalizedText Strings\\Weapons:IronEdge_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_Claymore": "335 3 MistressAutumn.BlacksmithingSkill_SteelBar 2/Home/10/false/MistressAutumn.Blacksmithing 2/[LocalizedText Strings\\Weapons:Claymore_Name]/(W)",
+			//"MistressAutumn.BlacksmithingSkill_NeptunesGlaive": "MistressAutumn.BlacksmithingSkill_SteelBar 3 62 1/Home/14/false/MistressAutumn.Blacksmithing 2/[LocalizedText Strings\\Weapons:NeptunesGlaive_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_TemplarsBlade": "MistressAutumn.BlacksmithingSkill_SteelBar 3 86 1/Home/7/false/MistressAutumn.Blacksmithing 2/[LocalizedText Strings\\Weapons:TemplarsBlade_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_ObsidianEdge": "575 1 MistressAutumn.BlacksmithingSkill_SteelBar 2/Home/8/false/MistressAutumn.Blacksmithing 3/[LocalizedText Strings\\Weapons:ObsidianEdge_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_OssifiedBlade": "MistressAutumn.BlacksmithingSkill_SteelBar 3 881 50/Home/60/false/MistressAutumn.Blacksmithing 3/[LocalizedText Strings\\Weapons:OssifiedBlade_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_HolyBlade": "336 3 768 5 MistressAutumn.BlacksmithingSkill_SteelBar 1/Home/3/false/MistressAutumn.Blacksmithing 4/[LocalizedText Strings\\Weapons:HolyBlade_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_TemperedBroadsword": "MistressAutumn.BlacksmithingSkill_SteelBar 5 86 3/Home/52/false/MistressAutumn.Blacksmithing 4/[LocalizedText Strings\\Weapons:TemperedBroadsword_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_YetiTooth": "MistressAutumn.BlacksmithingSkill_ChromeBar 3 84 3/Home/48/false/MistressAutumn.Blacksmithing 4/[LocalizedText Strings\\Weapons:YetiTooth_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_SteelFalchion": "MistressAutumn.BlacksmithingSkill_SteelBar 3 68 1/Home/50/false/MistressAutumn.Blacksmithing 6/[LocalizedText Strings\\Weapons:SteelFalchion_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_DarkSword": "MistressAutumn.BlacksmithingSkill_StainlessSteelBar 3 MistressAutumn.BlacksmithingSkill_SteelBar 2 769 10/Home/2/false/MistressAutumn.Blacksmithing 7/[LocalizedText Strings\\Weapons:DarkSword_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_GalaxySword": "337 3 74 1/Home/4/false/MistressAutumn.Blacksmithing 8/[LocalizedText Strings\\Weapons:GalaxySword_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_DragontoothCutlass": "337 3 852 3 848 5/Home/57/false/MistressAutumn.Blacksmithing 9/[LocalizedText Strings\\Weapons:DragontoothCutlass_Name]/(W)",
+			
+			//"MistressAutumn.BlacksmithingSkill_CarvingKnife": "335 1 388 2/Home/16/false/default/[LocalizedText Strings\\Weapons:CarvingKnife_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_IronDirk": "335 1 388 2/Home/17/false/default/[LocalizedText Strings\\Weapons:IronDirk_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_WindSpire": "335 1 709 1/Home/22/false/default/[LocalizedText Strings\\Weapons:WindSpire_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_BurglarsShank": "335 2 MistressAutumn.BlacksmithingSkill_SteelBar 1/Home/18/false/MistressAutumn.Blacksmithing 1/[LocalizedText Strings\\Weapons:BurglarsShank_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_CrystalDagger": "338 2 84 1/Home/18/false/MistressAutumn.Blacksmithing 1/[LocalizedText Strings\\Weapons:CrystalDagger_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_ShadowDagger": "MistressAutumn.BlacksmithingSkill_SteelBar 2 769 2/Home/19/false/MistressAutumn.Blacksmithing 2/[LocalizedText Strings\\Weapons:ShadowDagger_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_WickedKris": "MistressAutumn.BlacksmithingSkill_SteelBar 3 64 1/Home/45/false/MistressAutumn.Blacksmithing 6/[LocalizedText Strings\\Weapons:WickedKris_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_GalaxyDagger": "337 2 74 1/Home/23/false/MistressAutumn.Blacksmithing 8/[LocalizedText Strings\\Weapons:GalaxyDagger_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_DragontoothShiv": "337 2 852 2 848 5/Home/59/false/MistressAutumn.Blacksmithing 9/[LocalizedText Strings\\Weapons:DragontoothShiv_Name]/(W)",
+			
+			"MistressAutumn.BlacksmithingSkill_Kudgel": "MistressAutumn.BlacksmithingSkill_SteelBar 5 709 2/Home/46/false/MistressAutumn.Blacksmithing 2/[LocalizedText Strings\\Weapons:Kudgel_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_TheSlammer": "MistressAutumn.BlacksmithingSkill_SteelBar 7/Home/28/false/MistressAutumn.Blacksmithing 4/[LocalizedText Strings\\Weapons:TheSlammer_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_GalaxyHammer": "337 6 74 1/Home/29/false/MistressAutumn.Blacksmithing 8/[LocalizedText Strings\\Weapons:GalaxyHammer_Name]/(W)",
+			"MistressAutumn.BlacksmithingSkill_DragontoothClub": "337 5 852 5 848 5/Home/58/false/MistressAutumn.Blacksmithing 9/[LocalizedText Strings\\Weapons:DragontoothClub_Name]/(W)",
+		}
+	},
+	{
+		"LogName": "Load Better Crafting",
+        "Action": "EditData",
+        "Target": "Mods/leclair.bettercrafting/CraftingStations",
+        "Entries": {
+			"MistressAutumn.BlacksmithingSkill_SmithingAnvil": {
+				"Id": "MistressAutumn.BlacksmithingSkill_SmithingAnvil",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_SmithingAnvil}}",
+				"Icon": {
+					"Type": "Item",
+					"ItemId": "(W)28"
+				},
+				"IsCooking": false,
+				"Recipes": [
+					"MistressAutumn.BlacksmithingSkill_CopperDust",
+					"MistressAutumn.BlacksmithingSkill_IronDust",
+					"MistressAutumn.BlacksmithingSkill_GoldDust",
+					"MistressAutumn.BlacksmithingSkill_IridiumDust",
+					"MistressAutumn.BlacksmithingSkill_RadioactiveDust",
+					"MistressAutumn.BlacksmithingSkill_TinDust",
+					"MistressAutumn.BlacksmithingSkill_NickelDust",
+					"MistressAutumn.BlacksmithingSkill_ChromeDust",
+					"MistressAutumn.BlacksmithingSkill_TungstenDust",
+					
+					"MistressAutumn.BlacksmithingSkill_SteelSmallsword",
+					"MistressAutumn.BlacksmithingSkill_PiratesSword",
+					"MistressAutumn.BlacksmithingSkill_Cutlass",
+					"MistressAutumn.BlacksmithingSkill_IronEdge",
+					"MistressAutumn.BlacksmithingSkill_Claymore",
+					//"MistressAutumn.BlacksmithingSkill_NeptunesGlaive",
+					"MistressAutumn.BlacksmithingSkill_TemplarsBlade",
+					"MistressAutumn.BlacksmithingSkill_ObsidianEdge",
+					"MistressAutumn.BlacksmithingSkill_HolyBlade",
+					"MistressAutumn.BlacksmithingSkill_TemperedBroadsword",
+					"MistressAutumn.BlacksmithingSkill_YetiTooth",
+					"MistressAutumn.BlacksmithingSkill_SteelFalchion",
+					"MistressAutumn.BlacksmithingSkill_DarkSword",
+					"MistressAutumn.BlacksmithingSkill_GalaxySword",
+					"MistressAutumn.BlacksmithingSkill_DragontoothCutlass",
+					
+					//"MistressAutumn.BlacksmithingSkill_CarvingKnife",
+					"MistressAutumn.BlacksmithingSkill_IronDirk",
+					"MistressAutumn.BlacksmithingSkill_WindSpire",
+					"MistressAutumn.BlacksmithingSkill_BurglarsShank",
+					"MistressAutumn.BlacksmithingSkill_CrystalDagger",
+					"MistressAutumn.BlacksmithingSkill_ShadowDagger",
+					"MistressAutumn.BlacksmithingSkill_WickedKris",
+					"MistressAutumn.BlacksmithingSkill_GalaxyDagger",
+					"MistressAutumn.BlacksmithingSkill_DragontoothShiv",
+					
+					"MistressAutumn.BlacksmithingSkill_Kudgel",
+					"MistressAutumn.BlacksmithingSkill_TheSlammer",
+					"MistressAutumn.BlacksmithingSkill_GalaxyHammer",
+					"MistressAutumn.BlacksmithingSkill_DragontoothClub"
+				],
+				"Categories": [
+					{
+						"Id": "MistressAutumn.BlacksmithingSkill_Swords",
+						"Name": "{{i18n:MistressAutumn.BlacksmithingSkill_Swords}}",
+						"Icon": {
+							"Type": "Item",
+							"ItemId": "(W)11"
+						},
+						"Recipes": [
+							"MistressAutumn.BlacksmithingSkill_SteelSmallsword",
+							"MistressAutumn.BlacksmithingSkill_PiratesSword",
+							"MistressAutumn.BlacksmithingSkill_Cutlass",
+							"MistressAutumn.BlacksmithingSkill_IronEdge",
+							"MistressAutumn.BlacksmithingSkill_Claymore",
+							//"MistressAutumn.BlacksmithingSkill_NeptunesGlaive",
+							"MistressAutumn.BlacksmithingSkill_TemplarsBlade",
+							"MistressAutumn.BlacksmithingSkill_ObsidianEdge",
+							"MistressAutumn.BlacksmithingSkill_HolyBlade",
+							"MistressAutumn.BlacksmithingSkill_TemperedBroadsword",
+							"MistressAutumn.BlacksmithingSkill_YetiTooth",
+							"MistressAutumn.BlacksmithingSkill_SteelFalchion",
+							"MistressAutumn.BlacksmithingSkill_DarkSword",
+							"MistressAutumn.BlacksmithingSkill_GalaxySword",
+							"MistressAutumn.BlacksmithingSkill_DragontoothCutlass"
+						]
+					},
+					{
+						"Id": "MistressAutumn.BlacksmithingSkill_Daggers",
+						"Name": "{{i18n:MistressAutumn.BlacksmithingSkill_Daggers}}",
+						"Icon": {
+							"Type": "Item",
+							"ItemId": "(W)16"
+						},
+						"Recipes": [
+							//"MistressAutumn.BlacksmithingSkill_CarvingKnife",
+							"MistressAutumn.BlacksmithingSkill_IronDirk",
+							"MistressAutumn.BlacksmithingSkill_WindSpire",
+							"MistressAutumn.BlacksmithingSkill_BurglarsShank",
+							"MistressAutumn.BlacksmithingSkill_CrystalDagger",
+							"MistressAutumn.BlacksmithingSkill_ShadowDagger",
+							"MistressAutumn.BlacksmithingSkill_WickedKris",
+							"MistressAutumn.BlacksmithingSkill_GalaxyDagger",
+							"MistressAutumn.BlacksmithingSkill_DragontoothShiv"
+						]
+					},
+					{
+						"Id": "MistressAutumn.BlacksmithingSkill_Clubs",
+						"Name": "{{i18n:MistressAutumn.BlacksmithingSkill_Clubs}}",
+						"Icon": {
+							"Type": "Item",
+							"ItemId": "(W)24"
+						},
+						"Recipes": [
+							"MistressAutumn.BlacksmithingSkill_Kudgel",
+							"MistressAutumn.BlacksmithingSkill_TheSlammer",
+							"MistressAutumn.BlacksmithingSkill_GalaxyHammer",
+							"MistressAutumn.BlacksmithingSkill_DragontoothClub"
+						]
+					},
+					{
+						"Id": "MistressAutumn.BlacksmithingSkill_Dusts",
+						"Name": "{{i18n:MistressAutumn.BlacksmithingSkill_Dusts}}",
+						"Icon": {
+							"Type": "Item",
+							"ItemId": "(O)MistressAutumn.BlacksmithingSkill_CopperDust"
+						},
+						"Recipes": [
+							"MistressAutumn.BlacksmithingSkill_CopperDust",
+							"MistressAutumn.BlacksmithingSkill_IronDust",
+							"MistressAutumn.BlacksmithingSkill_GoldDust",
+							"MistressAutumn.BlacksmithingSkill_IridiumDust",
+							"MistressAutumn.BlacksmithingSkill_RadioactiveDust",
+							"MistressAutumn.BlacksmithingSkill_TinDust",
+							"MistressAutumn.BlacksmithingSkill_NickelDust",
+							"MistressAutumn.BlacksmithingSkill_ChromeDust",
+							"MistressAutumn.BlacksmithingSkill_TungstenDust"
+						]
+					}
+				],
+				"AreRecipesExclusive": true
+			}
+		}
+	}
+	]
+}

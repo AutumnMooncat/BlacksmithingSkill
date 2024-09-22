@@ -1,0 +1,9 @@
+{
+	"Format": "2.3.0",
+	"Changes": [
+	{
+		"Action": "Include",
+		"FromFile": "data/textures.json, data/objects.json, data/bigCraftables.json, data/furniture.json, data/machines.json, data/recipes.json, data/resources.json, data/tools.json, data/weapons.json",
+	}
+	]
+}

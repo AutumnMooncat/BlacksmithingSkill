@@ -1,0 +1,25 @@
+{
+  "Name": "BlacksmithingSkill",
+  "Author": "MistressAutumn",
+  "Version": "1.0.0",
+  "Description": "Adds a new skill if I can actually get it working.",
+  "UniqueID": "MistressAutumn.BlacksmithingSkill",
+  "EntryDll": "BlacksmithingSkillCode.dll",
+  "MinimumApiVersion": "4.0.0",
+  "Dependencies": [
+    {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"IsRequired": true
+    },
+    {
+		"UniqueID": "spacechase0.GenericModConfigMenu",
+		"IsRequired": false
+    },
+    {
+		"UniqueID": "spacechase0.SpaceCore",
+		"IsRequired": true,
+		"MinimumVersion": "1.25.2"
+    }
+  ],
+  "UpdateKeys": []
+}

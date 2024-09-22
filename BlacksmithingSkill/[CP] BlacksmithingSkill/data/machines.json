@@ -1,0 +1,2687 @@
+{
+	"Changes": [
+	{
+		"LogName": "Add Extra Outputs",
+		"Action": "EditData",
+		"Target": "selph.ExtraMachineConfig/ExtraOutputs",
+		"Entries": {
+			"MistressAutumn.BlacksmithingSkill_CreosoteExtra": {
+				"Id": "MistressAutumn.BlacksmithingSkill_CreosoteExtra",
+				"ItemId": "(O)MistressAutumn.BlacksmithingSkill_Creosote",
+				"MinStack": 1,
+				"MaxStack": 1
+			}
+		}
+    },
+	{
+		"LogName": "Load Machines",
+		"Action": "EditData",
+		"Target": "Data/Machines",
+		"Entries": {
+			"(BC)MistressAutumn.BlacksmithingSkill_AlloySmelter": {
+				"HasInput": false,
+				"HasOutput": false,
+				"InteractMethod": null,
+				"OutputRules": [
+				{
+					"Id": "BronzeBar",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)334",
+						"RequiredTags": null,
+						"RequiredCount": 3,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": {
+							"selph.ExtraMachineConfig.RequirementId.1": "(O)MistressAutumn.BlacksmithingSkill_TinBar",
+							"selph.ExtraMachineConfig.RequirementCount.1": "1",
+							"selph.ExtraMachineConfig.RequirementId.2": "(O)382",
+							"selph.ExtraMachineConfig.RequirementCount.2": "1",
+							"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MistressAutumn.BlacksmithingSkill_AlloySmelter_BronzeBarMsg}}"
+						},
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "MistressAutumn.BlacksmithingSkill_BronzeBar",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_BronzeBar",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 4,
+						"MaxStack": 4,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					}
+					],
+					"MinutesUntilReady": 90,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "InvarBar",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)335",
+						"RequiredTags": null,
+						"RequiredCount": 2,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": {
+							"selph.ExtraMachineConfig.RequirementId.1": "(O)MistressAutumn.BlacksmithingSkill_NickelBar",
+							"selph.ExtraMachineConfig.RequirementCount.1": "1",
+							"selph.ExtraMachineConfig.RequirementId.2": "(O)382",
+							"selph.ExtraMachineConfig.RequirementCount.2": "1",
+							"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MistressAutumn.BlacksmithingSkill_AlloySmelter_InvarBarMsg}}"
+						},
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "MistressAutumn.BlacksmithingSkill_InvarBar",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_InvarBar",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 3,
+						"MaxStack": 3,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					}
+					],
+					"MinutesUntilReady": 360,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				}
+				],
+				"AdditionalConsumedItems": null,
+				"PreventTimePass": null,
+				"ReadyTimeModifiers": null,
+				"ReadyTimeModifierMode": "Stack",
+				"InvalidItemMessage": null,
+				"InvalidItemMessageCondition": null,
+				"InvalidCountMessage": "{{i18n:MistressAutumn.BlacksmithingSkill_AlloySmelter_MoreBarsMsg}}",
+				"LoadEffects": [
+				{
+					"Id": "Default",
+					"Condition": null,
+					"Sounds": [
+					{
+						"Id": "furnace",
+						"Delay": 0
+					}
+					],
+					"Interval": 100,
+					"Frames": null,
+					"ShakeDuration": -1,
+					"TemporarySprites": [
+					{
+						"Id": "Default",
+						"Condition": null,
+						"Texture": "TileSheets\\animations",
+						"SourceRect": {
+							"X": 0,
+							"Y": 1920,
+							"Width": 64,
+							"Height": 64
+						},
+						"Interval": 50.0,
+						"Frames": 4,
+						"Loops": 10,
+						"PositionOffset": "0, -4",
+						"Flicker": false,
+						"Flip": false,
+						"SortOffset": 0.0,
+						"AlphaFade": 0.005,
+						"Scale": 0.25,
+						"ScaleChange": 0.0,
+						"Rotation": 0.0,
+						"RotationChange": 0.0,
+						"Color": null
+					}
+					]
+				}
+				],
+				"WorkingEffects": [
+				{
+					"Id": "Default",
+					"Condition": null,
+					"Sounds": [
+					{
+						"Id": "fireball",
+						"Delay": 0
+					}
+					],
+					"Interval": 100,
+					"Frames": null,
+					"ShakeDuration": -1,
+					"TemporarySprites": [
+					{
+						"Id": "Default",
+						"Condition": null,
+						"Texture": "TileSheets\\animations",
+						"SourceRect": {
+							"X": 0,
+							"Y": 1920,
+							"Width": 64,
+							"Height": 64
+						},
+						"Interval": 50.0,
+						"Frames": 4,
+						"Loops": 10,
+						"PositionOffset": "0, -4",
+						"Flicker": false,
+						"Flip": false,
+						"SortOffset": 0.0,
+						"AlphaFade": 0.005,
+						"Scale": 0.25,
+						"ScaleChange": 0.0,
+						"Rotation": 0.0,
+						"RotationChange": 0.0,
+						"Color": null
+					}
+					]
+				}
+				],
+				"WorkingEffectChance": 0.165,
+				"AllowLoadWhenFull": false,
+				"WobbleWhileWorking": true,
+				"LightWhileWorking": {
+					"Radius": 1.5,
+					"Color": "DarkCyan"
+				},
+				"ShowNextIndexWhileWorking": true,
+				"ShowNextIndexWhenReady": false,
+				"AllowFairyDust": true,
+				"IsIncubator": false,
+				"OnlyCompleteOvernight": false,
+				"ClearContentsOvernightCondition": null,
+				"StatsToIncrementWhenLoaded": null,
+				"StatsToIncrementWhenHarvested": null,
+				"ExperienceGainOnHarvest": null,
+				"CustomFields": null
+			},
+			"(BC)MistressAutumn.BlacksmithingSkill_Grinder": {
+				"HasInput": false,
+				"HasOutput": false,
+				"InteractMethod": null,
+				"OutputRules": [
+				{
+					"Id": "CopperDust",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)378",
+						"RequiredTags": null,
+						"RequiredCount": 5,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_CopperDust",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_CopperDust",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 2,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"MinutesUntilReady": 30,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "IronDust",
+					"Triggers": [
+					  {
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)380",
+						"RequiredTags": null,
+						"RequiredCount": 5,
+						"Condition": null
+					  }
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					  {
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_IronDust",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_IronDust",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 2,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"MinutesUntilReady": 120,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "GoldDust",
+					"Triggers": [
+					  {
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)384",
+						"RequiredTags": null,
+						"RequiredCount": 5,
+						"Condition": null
+					  }
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					  {
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_GoldDust",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_GoldDust",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 2,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"MinutesUntilReady": 300,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "IridiumDust",
+					"Triggers": [
+					  {
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)386",
+						"RequiredTags": null,
+						"RequiredCount": 5,
+						"Condition": null
+					  }
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					  {
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_IridiumDust",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_IridiumDust",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 2,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"MinutesUntilReady": 480,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "RadioactiveDust",
+					"Triggers": [
+					  {
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)909",
+						"RequiredTags": null,
+						"RequiredCount": 5,
+						"Condition": null
+					  }
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					  {
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_RadioactiveDust",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_RadioactiveDust",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 2,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"MinutesUntilReady": 560,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "TinDust",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_TinOre",
+						"RequiredTags": null,
+						"RequiredCount": 5,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_TinDust",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_TinDust",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 2,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"MinutesUntilReady": 30,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "NickelDust",
+					"Triggers": [
+					  {
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_NickelOre",
+						"RequiredTags": null,
+						"RequiredCount": 5,
+						"Condition": null
+					  }
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					  {
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_NickelDust",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_NickelDust",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 2,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"MinutesUntilReady": 120,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "ChromeDust",
+					"Triggers": [
+					  {
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_ChromeOre",
+						"RequiredTags": null,
+						"RequiredCount": 5,
+						"Condition": null
+					  }
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					  {
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_ChromeDust",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_ChromeDust",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 2,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"MinutesUntilReady": 300,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "TungstenDust",
+					"Triggers": [
+					  {
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_TungstenOre",
+						"RequiredTags": null,
+						"RequiredCount": 5,
+						"Condition": null
+					  }
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					  {
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_TungstenDust",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_TungstenDust",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 2,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"MinutesUntilReady": 480,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "CopperDust",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)334",
+						"RequiredTags": null,
+						"RequiredCount": 1,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_CopperDust",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_CopperDust",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"MinutesUntilReady": 30,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "IronDust",
+					"Triggers": [
+					  {
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)335",
+						"RequiredTags": null,
+						"RequiredCount": 1,
+						"Condition": null
+					  }
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					  {
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_IronDust",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_IronDust",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"MinutesUntilReady": 120,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "GoldDust",
+					"Triggers": [
+					  {
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)336",
+						"RequiredTags": null,
+						"RequiredCount": 1,
+						"Condition": null
+					  }
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					  {
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_GoldDust",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_GoldDust",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"MinutesUntilReady": 300,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "IridiumBarDust",
+					"Triggers": [
+					  {
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)337",
+						"RequiredTags": null,
+						"RequiredCount": 1,
+						"Condition": null
+					  }
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					  {
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_IridiumDust",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_IridiumDust",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"MinutesUntilReady": 480,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "RadioactiveDust",
+					"Triggers": [
+					  {
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)910",
+						"RequiredTags": null,
+						"RequiredCount": 1,
+						"Condition": null
+					  }
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					  {
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_RadioactiveDust",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_RadioactiveDust",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"MinutesUntilReady": 560,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "TinBarDust",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_TinBar",
+						"RequiredTags": null,
+						"RequiredCount": 1,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_TinDust",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_TinDust",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"MinutesUntilReady": 30,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "NickelBarDust",
+					"Triggers": [
+					  {
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_NickelBar",
+						"RequiredTags": null,
+						"RequiredCount": 1,
+						"Condition": null
+					  }
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					  {
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_NickelDust",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_NickelDust",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"MinutesUntilReady": 120,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "ChromeBarDust",
+					"Triggers": [
+					  {
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_ChromeBar",
+						"RequiredTags": null,
+						"RequiredCount": 1,
+						"Condition": null
+					  }
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					  {
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_ChromeDust",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_ChromeDust",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"MinutesUntilReady": 300,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "TungstenBarDust",
+					"Triggers": [
+					  {
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_TungstenBar",
+						"RequiredTags": null,
+						"RequiredCount": 1,
+						"Condition": null
+					  }
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					  {
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_TungstenDust",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_TungstenDust",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"MinutesUntilReady": 480,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				}
+				],
+				"AdditionalConsumedItems": [
+				  {
+					"ItemId": "(O)382",
+					"RequiredCount": 1,
+					"InvalidCountMessage": "{{i18n:MistressAutumn.BlacksmithingSkill_Grinder_CoalMsg}}"
+				  }
+				],
+				"PreventTimePass": null,
+				"ReadyTimeModifiers": null,
+				"ReadyTimeModifierMode": "Stack",
+				"InvalidItemMessage": null,
+				"InvalidItemMessageCondition": null,
+				"InvalidCountMessage": "{{i18n:MistressAutumn.BlacksmithingSkill_Grinder_MoreOresMsg}}",
+				"LoadEffects": [
+				{
+					"Id": "Default",
+					"Condition": null,
+					"Sounds": [
+					  {
+						"Id": "drumkit4",
+						"Delay": 0
+					  },
+					  {
+						"Id": "stoneCrack",
+						"Delay": 0
+					  },
+					  {
+						"Id": "steam",
+						"Delay": 200
+					  }
+					],
+					"Interval": 100,
+					"Frames": null,
+					"ShakeDuration": -1,
+					"TemporarySprites": null
+				}
+				],
+				"WorkingEffects": [
+				  {
+					"Id": "Default",
+					"Condition": null,
+					"Sounds": [
+					  {
+						"Id": "fireball",
+						"Delay": 0
+					  }
+					],
+					"Interval": 100,
+					"Frames": null,
+					"ShakeDuration": -1,
+					"TemporarySprites": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Texture": "TileSheets\\animations",
+						"SourceRect": {
+						  "X": 0,
+						  "Y": 1920,
+						  "Width": 64,
+						  "Height": 64
+						},
+						"Interval": 50.0,
+						"Frames": 4,
+						"Loops": 10,
+						"PositionOffset": "0, -24",
+						"Flicker": false,
+						"Flip": false,
+						"SortOffset": 0.0,
+						"AlphaFade": 0.005,
+						"Scale": 0.25,
+						"ScaleChange": 0.0,
+						"Rotation": 0.0,
+						"RotationChange": 0.0,
+						"Color": null
+					  }
+					]
+				  }
+				],
+				"WorkingEffectChance": 0.165,
+				"AllowLoadWhenFull": false,
+				"WobbleWhileWorking": true,
+				"LightWhileWorking": {
+				  "Radius": 1.5,
+				  "Color": "DarkCyan"
+				},
+				"ShowNextIndexWhileWorking": true,
+				"ShowNextIndexWhenReady": false,
+				"AllowFairyDust": true,
+				"IsIncubator": false,
+				"OnlyCompleteOvernight": false,
+				"ClearContentsOvernightCondition": null,
+				"StatsToIncrementWhenLoaded": null,
+				"StatsToIncrementWhenHarvested": null,
+				"ExperienceGainOnHarvest": null,
+				"CustomFields": null
+			},
+			"(BC)MistressAutumn.BlacksmithingSkill_Generator": {
+				"HasInput": false,
+				"HasOutput": false,
+				"InteractMethod": null,
+				"OutputRules": [
+				{
+					"Id": "BatteryFromCoal",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)382",
+						"RequiredTags": null,
+						"RequiredCount": 10,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)787",
+						"ItemId": "(O)787",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					}
+					],
+					"MinutesUntilReady": 900,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "BatteryFromRadioactiveOre",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)909",
+						"RequiredTags": null,
+						"RequiredCount": 10,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)787",
+						"ItemId": "(O)787",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 10,
+						"MaxStack": 10,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					}
+					],
+					"MinutesUntilReady": 900,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "BatteryFromCreosote",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_Creosote",
+						"RequiredTags": null,
+						"RequiredCount": 10,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)787",
+						"ItemId": "(O)787",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					}
+					],
+					"MinutesUntilReady": 900,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "BatteryFromCoalCoke",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_CoalCoke",
+						"RequiredTags": null,
+						"RequiredCount": 10,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": null,
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)787",
+						"ItemId": "(O)787",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 2,
+						"MaxStack": 2,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					}
+					],
+					"MinutesUntilReady": 900,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				}
+				],
+				"AdditionalConsumedItems": null,
+				"PreventTimePass": null,
+				"ReadyTimeModifiers": null,
+				"ReadyTimeModifierMode": "Stack",
+				"InvalidItemMessage": null,
+				"InvalidItemMessageCondition": null,
+				"InvalidCountMessage": "{{i18n:MistressAutumn.BlacksmithingSkill_Generator_MoreMaterialMsg}}",
+				"LoadEffects": [
+				{
+					"Id": "Default",
+					"Condition": null,
+					"Sounds": [
+					  {
+						"Id": "furnace",
+						"Delay": 200
+					  }
+					],
+					"Interval": 100,
+					"Frames": null,
+					"ShakeDuration": -1,
+					"TemporarySprites": null
+				}
+				],
+				"WorkingEffects": null,
+				"WorkingEffectChance": -1,
+				"AllowLoadWhenFull": false,
+				"WobbleWhileWorking": true,
+				"LightWhileWorking": {
+				  "Radius": 1.5,
+				  "Color": "DarkCyan"
+				},
+				"ShowNextIndexWhileWorking": true,
+				"ShowNextIndexWhenReady": false,
+				"AllowFairyDust": true,
+				"IsIncubator": false,
+				"OnlyCompleteOvernight": false,
+				"ClearContentsOvernightCondition": null,
+				"StatsToIncrementWhenLoaded": null,
+				"StatsToIncrementWhenHarvested": null,
+				"ExperienceGainOnHarvest": null,
+				"CustomFields": null
+			},
+			"(BC)MistressAutumn.BlacksmithingSkill_CokeOven": {
+				"HasInput": false,
+				"HasOutput": false,
+				"InteractMethod": null,
+				"OutputRules": [
+				{
+					"Id": "CokeFromCoal",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)382",
+						"RequiredTags": null,
+						"RequiredCount": 5,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": {
+							"selph.ExtraMachineConfig.ExtraOutputIds": "MistressAutumn.BlacksmithingSkill_CreosoteExtra",
+						},
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "(O)MistressAutumn.BlacksmithingSkill_CoalCoke",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_CoalCoke",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 5,
+						"MaxStack": 5,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					}
+					],
+					"MinutesUntilReady": 600,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				}
+				],
+				"AdditionalConsumedItems": null,
+				"PreventTimePass": null,
+				"ReadyTimeModifiers": null,
+				"ReadyTimeModifierMode": "Stack",
+				"InvalidItemMessage": null,
+				"InvalidItemMessageCondition": null,
+				"InvalidCountMessage": "{{i18n:MistressAutumn.BlacksmithingSkill_CokeOven_MoreMaterialMsg}}",
+				"LoadEffects": [
+				{
+					"Id": "Default",
+					"Condition": null,
+					"Sounds": [
+					  {
+						"Id": "furnace",
+						"Delay": 200
+					  }
+					],
+					"Interval": 100,
+					"Frames": null,
+					"ShakeDuration": -1,
+					"TemporarySprites": null
+				}
+				],
+				"WorkingEffects": null,
+				"WorkingEffectChance": -1,
+				"AllowLoadWhenFull": false,
+				"WobbleWhileWorking": true,
+				"LightWhileWorking": {
+				  "Radius": 1.5,
+				  "Color": "DarkCyan"
+				},
+				"ShowNextIndexWhileWorking": true,
+				"ShowNextIndexWhenReady": false,
+				"AllowFairyDust": true,
+				"IsIncubator": false,
+				"OnlyCompleteOvernight": false,
+				"ClearContentsOvernightCondition": null,
+				"StatsToIncrementWhenLoaded": null,
+				"StatsToIncrementWhenHarvested": null,
+				"ExperienceGainOnHarvest": null,
+				"CustomFields": null
+			},
+			"(BC)MistressAutumn.BlacksmithingSkill_PBF": {
+				"HasInput": false,
+				"HasOutput": false,
+				"InteractMethod": null,
+				"OutputRules": [
+				{
+					"Id": "SteelBar",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)335",
+						"RequiredTags": null,
+						"RequiredCount": 1,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": {
+							"selph.ExtraMachineConfig.RequirementId.1": "(O)MistressAutumn.BlacksmithingSkill_CoalCoke",
+							"selph.ExtraMachineConfig.RequirementCount.1": "1",
+							"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MistressAutumn.BlacksmithingSkill_PBF_SteelBarMsg}}"
+						},
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "MistressAutumn.BlacksmithingSkill_SteelBar",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_SteelBar",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					}
+					],
+					"MinutesUntilReady": 240,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "ChromeBar",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_ChromeOre",
+						"RequiredTags": null,
+						"RequiredCount": 5,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": {
+							"selph.ExtraMachineConfig.RequirementId.1": "(O)MistressAutumn.BlacksmithingSkill_CoalCoke",
+							"selph.ExtraMachineConfig.RequirementCount.1": "1",
+							"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MistressAutumn.BlacksmithingSkill_PBF_ChromeBarMsg}}"
+						},
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "MistressAutumn.BlacksmithingSkill_ChromeBar",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_ChromeBar",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					}
+					],
+					"MinutesUntilReady": 360,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "ChromeDustBar",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_ChromeDust",
+						"RequiredTags": null,
+						"RequiredCount": 1,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": {
+							"selph.ExtraMachineConfig.RequirementId.1": "(O)MistressAutumn.BlacksmithingSkill_CoalCoke",
+							"selph.ExtraMachineConfig.RequirementCount.1": "1",
+							"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MistressAutumn.BlacksmithingSkill_PBF_ChromeDustBarMsg}}"
+						},
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "MistressAutumn.BlacksmithingSkill_ChromeBar",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_ChromeBar",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					}
+					],
+					"MinutesUntilReady": 360,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "StainlessSteelBar",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_StainlessSteelDust",
+						"RequiredTags": null,
+						"RequiredCount": 1,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": {
+							"selph.ExtraMachineConfig.RequirementId.1": "(O)MistressAutumn.BlacksmithingSkill_CoalCoke",
+							"selph.ExtraMachineConfig.RequirementCount.1": "1",
+							"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MistressAutumn.BlacksmithingSkill_PBF_StainlessSteelBarMsg}}"
+						},
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "MistressAutumn.BlacksmithingSkill_StainlessSteelBar",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_StainlessSteelBar",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					}
+					],
+					"MinutesUntilReady": 300,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				}
+				],
+				"AdditionalConsumedItems": null,
+				"PreventTimePass": null,
+				"ReadyTimeModifiers": null,
+				"ReadyTimeModifierMode": "Stack",
+				"InvalidItemMessage": null,
+				"InvalidItemMessageCondition": null,
+				"InvalidCountMessage": "{{i18n:MistressAutumn.BlacksmithingSkill_PBF_MoreBarsMsg}}",
+				"LoadEffects": [
+				{
+					"Id": "Default",
+					"Condition": null,
+					"Sounds": [
+					{
+						"Id": "furnace",
+						"Delay": 0
+					}
+					],
+					"Interval": 100,
+					"Frames": null,
+					"ShakeDuration": -1,
+					"TemporarySprites": [
+					{
+						"Id": "Default",
+						"Condition": null,
+						"Texture": "TileSheets\\animations",
+						"SourceRect": {
+							"X": 0,
+							"Y": 1920,
+							"Width": 64,
+							"Height": 64
+						},
+						"Interval": 50.0,
+						"Frames": 4,
+						"Loops": 10,
+						"PositionOffset": "0, -4",
+						"Flicker": false,
+						"Flip": false,
+						"SortOffset": 0.0,
+						"AlphaFade": 0.005,
+						"Scale": 0.25,
+						"ScaleChange": 0.0,
+						"Rotation": 0.0,
+						"RotationChange": 0.0,
+						"Color": null
+					}
+					]
+				}
+				],
+				"WorkingEffects": [
+				{
+					"Id": "Default",
+					"Condition": null,
+					"Sounds": [
+					{
+						"Id": "fireball",
+						"Delay": 0
+					}
+					],
+					"Interval": 100,
+					"Frames": null,
+					"ShakeDuration": -1,
+					"TemporarySprites": [
+					{
+						"Id": "Default",
+						"Condition": null,
+						"Texture": "TileSheets\\animations",
+						"SourceRect": {
+							"X": 0,
+							"Y": 1920,
+							"Width": 64,
+							"Height": 64
+						},
+						"Interval": 50.0,
+						"Frames": 4,
+						"Loops": 10,
+						"PositionOffset": "0, -4",
+						"Flicker": false,
+						"Flip": false,
+						"SortOffset": 0.0,
+						"AlphaFade": 0.005,
+						"Scale": 0.25,
+						"ScaleChange": 0.0,
+						"Rotation": 0.0,
+						"RotationChange": 0.0,
+						"Color": null
+					}
+					]
+				}
+				],
+				"WorkingEffectChance": 0.165,
+				"AllowLoadWhenFull": false,
+				"WobbleWhileWorking": true,
+				"LightWhileWorking": {
+					"Radius": 1.5,
+					"Color": "DarkCyan"
+				},
+				"ShowNextIndexWhileWorking": true,
+				"ShowNextIndexWhenReady": false,
+				"AllowFairyDust": true,
+				"IsIncubator": false,
+				"OnlyCompleteOvernight": false,
+				"ClearContentsOvernightCondition": null,
+				"StatsToIncrementWhenLoaded": null,
+				"StatsToIncrementWhenHarvested": null,
+				"ExperienceGainOnHarvest": null,
+				"CustomFields": null
+			},
+			"(BC)MistressAutumn.BlacksmithingSkill_EBF": {
+				"HasInput": false,
+				"HasOutput": false,
+				"InteractMethod": null,
+				"OutputRules": [
+				{
+					"Id": "ChromeBar",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_ChromeOre",
+						"RequiredTags": null,
+						"RequiredCount": 25,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": {
+							"selph.ExtraMachineConfig.RequirementId.1": "(O)787",
+							"selph.ExtraMachineConfig.RequirementCount.1": "1",
+							"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MistressAutumn.BlacksmithingSkill_EBF_ChromeBarMsg}}"
+						},
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "MistressAutumn.BlacksmithingSkill_ChromeBar",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_ChromeBar",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 5,
+						"MaxStack": 6,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					}
+					],
+					"MinutesUntilReady": 360,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "ChromeDustBar",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_ChromeDust",
+						"RequiredTags": null,
+						"RequiredCount": 5,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": {
+							"selph.ExtraMachineConfig.RequirementId.1": "(O)787",
+							"selph.ExtraMachineConfig.RequirementCount.1": "1",
+							"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MistressAutumn.BlacksmithingSkill_EBF_ChromeDustBarMsg}}"
+						},
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "MistressAutumn.BlacksmithingSkill_ChromeBar",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_ChromeBar",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 5,
+						"MaxStack": 5,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					}
+					],
+					"MinutesUntilReady": 360,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "StainlessSteelBar",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_StainlessSteelDust",
+						"RequiredTags": null,
+						"RequiredCount": 5,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": {
+							"selph.ExtraMachineConfig.RequirementId.1": "(O)787",
+							"selph.ExtraMachineConfig.RequirementCount.1": "1",
+							"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MistressAutumn.BlacksmithingSkill_EBF_StainlessSteelBarMsg}}"
+						},
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "MistressAutumn.BlacksmithingSkill_StainlessSteelBar",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_StainlessSteelBar",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 5,
+						"MaxStack": 5,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					}
+					],
+					"MinutesUntilReady": 300,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "TungstenBar",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_TungstenOre",
+						"RequiredTags": null,
+						"RequiredCount": 25,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": {
+							"selph.ExtraMachineConfig.RequirementId.1": "(O)787",
+							"selph.ExtraMachineConfig.RequirementCount.1": "1",
+							"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MistressAutumn.BlacksmithingSkill_EBF_TungstenBarMsg}}"
+						},
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "MistressAutumn.BlacksmithingSkill_TungstenBar",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_TungstenBar",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 5,
+						"MaxStack": 6,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					}
+					],
+					"MinutesUntilReady": 480,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "TungstenDustBar",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_TungstenDust",
+						"RequiredTags": null,
+						"RequiredCount": 5,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": {
+							"selph.ExtraMachineConfig.RequirementId.1": "(O)787",
+							"selph.ExtraMachineConfig.RequirementCount.1": "1",
+							"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MistressAutumn.BlacksmithingSkill_EBF_TungstenDustBarMsg}}"
+						},
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "MistressAutumn.BlacksmithingSkill_TungstenBar",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_TungstenBar",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 5,
+						"MaxStack": 5,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					}
+					],
+					"MinutesUntilReady": 480,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				},
+				{
+					"Id": "TungstenSteelBar",
+					"Triggers": [
+					{
+						"Id": "ItemPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_TungstenBar",
+						"RequiredTags": null,
+						"RequiredCount": 1,
+						"Condition": null
+					}
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+					{
+						"CustomData": {
+							"selph.ExtraMachineConfig.RequirementId.1": "(O)787",
+							"selph.ExtraMachineConfig.RequirementCount.1": "1",
+							"selph.ExtraMachineConfig.RequirementId.2": "(O)MistressAutumn.BlacksmithingSkill_SteelBar",
+							"selph.ExtraMachineConfig.RequirementCount.2": "4",
+							"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MistressAutumn.BlacksmithingSkill_EBF_TungstenSteelBarMsg}}"
+						},
+						"OutputMethod": null,
+						"CopyColor": false,
+						"CopyPrice": false,
+						"CopyQuality": false,
+						"PreserveType": null,
+						"PreserveId": null,
+						"IncrementMachineParentSheetIndex": 0,
+						"PriceModifiers": null,
+						"PriceModifierMode": "Stack",
+						"Condition": null,
+						"Id": "MistressAutumn.BlacksmithingSkill_TungstenSteelBar",
+						"ItemId": "(O)MistressAutumn.BlacksmithingSkill_TungstenSteelBar",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 5,
+						"MaxStack": 5,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					}
+					],
+					"MinutesUntilReady": 420,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				}
+				],
+				"AdditionalConsumedItems": null,
+				"PreventTimePass": null,
+				"ReadyTimeModifiers": null,
+				"ReadyTimeModifierMode": "Stack",
+				"InvalidItemMessage": null,
+				"InvalidItemMessageCondition": null,
+				"InvalidCountMessage": "{{i18n:MistressAutumn.BlacksmithingSkill_EBF_MoreBarsMsg}}",
+				"LoadEffects": [
+				{
+					"Id": "Default",
+					"Condition": null,
+					"Sounds": [
+					{
+						"Id": "furnace",
+						"Delay": 0
+					}
+					],
+					"Interval": 100,
+					"Frames": null,
+					"ShakeDuration": -1,
+					"TemporarySprites": [
+					{
+						"Id": "Default",
+						"Condition": null,
+						"Texture": "TileSheets\\animations",
+						"SourceRect": {
+							"X": 0,
+							"Y": 1920,
+							"Width": 64,
+							"Height": 64
+						},
+						"Interval": 50.0,
+						"Frames": 4,
+						"Loops": 10,
+						"PositionOffset": "0, -4",
+						"Flicker": false,
+						"Flip": false,
+						"SortOffset": 0.0,
+						"AlphaFade": 0.005,
+						"Scale": 0.25,
+						"ScaleChange": 0.0,
+						"Rotation": 0.0,
+						"RotationChange": 0.0,
+						"Color": null
+					}
+					]
+				}
+				],
+				"WorkingEffects": [
+				{
+					"Id": "Default",
+					"Condition": null,
+					"Sounds": [
+					{
+						"Id": "fireball",
+						"Delay": 0
+					}
+					],
+					"Interval": 100,
+					"Frames": null,
+					"ShakeDuration": -1,
+					"TemporarySprites": [
+					{
+						"Id": "Default",
+						"Condition": null,
+						"Texture": "TileSheets\\animations",
+						"SourceRect": {
+							"X": 0,
+							"Y": 1920,
+							"Width": 64,
+							"Height": 64
+						},
+						"Interval": 50.0,
+						"Frames": 4,
+						"Loops": 10,
+						"PositionOffset": "0, -4",
+						"Flicker": false,
+						"Flip": false,
+						"SortOffset": 0.0,
+						"AlphaFade": 0.005,
+						"Scale": 0.25,
+						"ScaleChange": 0.0,
+						"Rotation": 0.0,
+						"RotationChange": 0.0,
+						"Color": null
+					}
+					]
+				}
+				],
+				"WorkingEffectChance": 0.165,
+				"AllowLoadWhenFull": false,
+				"WobbleWhileWorking": true,
+				"LightWhileWorking": {
+					"Radius": 1.5,
+					"Color": "DarkCyan"
+				},
+				"ShowNextIndexWhileWorking": true,
+				"ShowNextIndexWhenReady": false,
+				"AllowFairyDust": true,
+				"IsIncubator": false,
+				"OnlyCompleteOvernight": false,
+				"ClearContentsOvernightCondition": null,
+				"StatsToIncrementWhenLoaded": null,
+				"StatsToIncrementWhenHarvested": null,
+				"ExperienceGainOnHarvest": null,
+				"CustomFields": null
+			}
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Machines",
+		"TargetField": [ "(BC)13", "OutputRules" ],
+		"Entries": {
+            "MistressAutumn.BlacksmithingSkill_TinSmelting": {
+				"Id": "MistressAutumn.BlacksmithingSkill_TinSmelting",
+				"Triggers": [
+					{
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_TinOre",
+						"RequiredCount": 5
+					}
+				],
+				"OutputItem": [
+				{
+					"ItemId": "(O)MistressAutumn.BlacksmithingSkill_TinBar"
+				}
+				],
+				"MinutesUntilReady": 30
+			},
+			"MistressAutumn.BlacksmithingSkill_NickelSmelting": {
+				"Id": "MistressAutumn.BlacksmithingSkill_NickelSmelting",
+				"Triggers": [
+					{
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_NickelOre",
+						"RequiredCount": 5
+					}
+				],
+				"OutputItem": [
+				{
+					"ItemId": "(O)MistressAutumn.BlacksmithingSkill_NickelBar"
+				}
+				],
+				"MinutesUntilReady": 120
+			},
+			"MistressAutumn.BlacksmithingSkill_CopperDustSmelting": {
+				"Id": "MistressAutumn.BlacksmithingSkill_CopperDustSmelting",
+				"Triggers": [
+					{
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_CopperDust",
+						"RequiredCount": 1
+					}
+				],
+				"OutputItem": [
+				{
+					"ItemId": "(O)334"
+				}
+				],
+				"MinutesUntilReady": 30
+			},
+			"MistressAutumn.BlacksmithingSkill_IronDustSmelting": {
+				"Id": "MistressAutumn.BlacksmithingSkill_IronDustSmelting",
+				"Triggers": [
+					{
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_IronDust",
+						"RequiredCount": 1
+					}
+				],
+				"OutputItem": [
+				{
+					"ItemId": "(O)335"
+				}
+				],
+				"MinutesUntilReady": 120
+			},
+			"MistressAutumn.BlacksmithingSkill_GoldDustSmelting": {
+				"Id": "MistressAutumn.BlacksmithingSkill_GoldDustSmelting",
+				"Triggers": [
+					{
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_GoldDust",
+						"RequiredCount": 1
+					}
+				],
+				"OutputItem": [
+				{
+					"ItemId": "(O)336"
+				}
+				],
+				"MinutesUntilReady": 300
+			},
+			"MistressAutumn.BlacksmithingSkill_IridiumDustSmelting": {
+				"Id": "MistressAutumn.BlacksmithingSkill_IridiumDustSmelting",
+				"Triggers": [
+					{
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_IridiumDust",
+						"RequiredCount": 1
+					}
+				],
+				"OutputItem": [
+				{
+					"ItemId": "(O)337"
+				}
+				],
+				"MinutesUntilReady": 480
+			},
+			"MistressAutumn.BlacksmithingSkill_RadioactiveDustSmelting": {
+				"Id": "MistressAutumn.BlacksmithingSkill_RadioactiveDustSmelting",
+				"Triggers": [
+					{
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_RadioactiveDust",
+						"RequiredCount": 1
+					}
+				],
+				"OutputItem": [
+				{
+					"ItemId": "(O)910"
+				}
+				],
+				"MinutesUntilReady": 560
+			},
+			"MistressAutumn.BlacksmithingSkill_TinDustSmelting": {
+				"Id": "MistressAutumn.BlacksmithingSkill_TinDustSmelting",
+				"Triggers": [
+					{
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_TinDust",
+						"RequiredCount": 1
+					}
+				],
+				"OutputItem": [
+				{
+					"ItemId": "(O)MistressAutumn.BlacksmithingSkill_TinBar"
+				}
+				],
+				"MinutesUntilReady": 30
+			},
+			"MistressAutumn.BlacksmithingSkill_NickelDustSmelting": {
+				"Id": "MistressAutumn.BlacksmithingSkill_NickelDustSmelting",
+				"Triggers": [
+					{
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_NickelDust",
+						"RequiredCount": 1
+					}
+				],
+				"OutputItem": [
+				{
+					"ItemId": "(O)MistressAutumn.BlacksmithingSkill_NickelBar"
+				}
+				],
+				"MinutesUntilReady": 120
+			}
+        }
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Machines",
+		"TargetField": [ "(BC)HeavyFurnace", "OutputRules" ],
+		"Entries": {
+            "MistressAutumn.BlacksmithingSkill_TinSmelting": {
+				"Id": "MistressAutumn.BlacksmithingSkill_TinSmelting",
+				"Triggers": [
+					{
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_TinOre",
+						"RequiredCount": 25
+					}
+				],
+				"OutputItem": [
+				{
+					"ItemId": "(O)MistressAutumn.BlacksmithingSkill_TinBar",
+					"MinStack": 5,
+					"MaxStack": 6
+				}
+				],
+				"MinutesUntilReady": 30
+			},
+			"MistressAutumn.BlacksmithingSkill_NickelSmelting": {
+				"Id": "MistressAutumn.BlacksmithingSkill_NickelSmelting",
+				"Triggers": [
+					{
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_NickelOre",
+						"RequiredCount": 25
+					}
+				],
+				"OutputItem": [
+				{
+					"ItemId": "(O)MistressAutumn.BlacksmithingSkill_NickelBar",
+					"MinStack": 5,
+					"MaxStack": 6
+				}
+				],
+				"MinutesUntilReady": 120
+			},
+			"MistressAutumn.BlacksmithingSkill_CopperDustSmelting": {
+				"Id": "MistressAutumn.BlacksmithingSkill_CopperDustSmelting",
+				"Triggers": [
+					{
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_CopperDust",
+						"RequiredCount": 5
+					}
+				],
+				"OutputItem": [
+				{
+					"ItemId": "(O)334",
+					"MinStack": 5,
+					"MaxStack": 5
+				}
+				],
+				"MinutesUntilReady": 30
+			},
+			"MistressAutumn.BlacksmithingSkill_IronDustSmelting": {
+				"Id": "MistressAutumn.BlacksmithingSkill_IronDustSmelting",
+				"Triggers": [
+					{
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_IronDust",
+						"RequiredCount": 5
+					}
+				],
+				"OutputItem": [
+				{
+					"ItemId": "(O)335",
+					"MinStack": 5,
+					"MaxStack": 5
+				}
+				],
+				"MinutesUntilReady": 120
+			},
+			"MistressAutumn.BlacksmithingSkill_GoldDustSmelting": {
+				"Id": "MistressAutumn.BlacksmithingSkill_GoldDustSmelting",
+				"Triggers": [
+					{
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_GoldDust",
+						"RequiredCount": 5
+					}
+				],
+				"OutputItem": [
+				{
+					"ItemId": "(O)336",
+					"MinStack": 5,
+					"MaxStack": 5
+				}
+				],
+				"MinutesUntilReady": 300
+			},
+			"MistressAutumn.BlacksmithingSkill_IridiumDustSmelting": {
+				"Id": "MistressAutumn.BlacksmithingSkill_IridiumDustSmelting",
+				"Triggers": [
+					{
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_IridiumDust",
+						"RequiredCount": 5
+					}
+				],
+				"OutputItem": [
+				{
+					"ItemId": "(O)337",
+					"MinStack": 5,
+					"MaxStack": 5
+				}
+				],
+				"MinutesUntilReady": 480
+			},
+			"MistressAutumn.BlacksmithingSkill_RadioactiveDustSmelting": {
+				"Id": "MistressAutumn.BlacksmithingSkill_RadioactiveDustSmelting",
+				"Triggers": [
+					{
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_RadioactiveDust",
+						"RequiredCount": 5
+					}
+				],
+				"OutputItem": [
+				{
+					"ItemId": "(O)910",
+					"MinStack": 5,
+					"MaxStack": 5
+				}
+				],
+				"MinutesUntilReady": 560
+			},
+			"MistressAutumn.BlacksmithingSkill_TinDustSmelting": {
+				"Id": "MistressAutumn.BlacksmithingSkill_TinDustSmelting",
+				"Triggers": [
+					{
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_TinDust",
+						"RequiredCount": 5
+					}
+				],
+				"OutputItem": [
+				{
+					"ItemId": "(O)MistressAutumn.BlacksmithingSkill_TinBar",
+					"MinStack": 5,
+					"MaxStack": 5
+				}
+				],
+				"MinutesUntilReady": 30
+			},
+			"MistressAutumn.BlacksmithingSkill_NickelDustSmelting": {
+				"Id": "MistressAutumn.BlacksmithingSkill_NickelDustSmelting",
+				"Triggers": [
+					{
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "(O)MistressAutumn.BlacksmithingSkill_NickelDust",
+						"RequiredCount": 5
+					}
+				],
+				"OutputItem": [
+				{
+					"ItemId": "(O)MistressAutumn.BlacksmithingSkill_NickelBar",
+					"MinStack": 5,
+					"MaxStack": 5
+				}
+				],
+				"MinutesUntilReady": 120
+			}
+        }
+	}
+	]
+}

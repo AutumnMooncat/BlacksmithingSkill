@@ -1,0 +1,546 @@
+{
+	"Changes": [
+	{
+		"LogName": "Load Objects",
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"Entries": {
+			"MistressAutumn.BlacksmithingSkill_TinOre": {
+				"Name": "MistressAutumn.BlacksmithingSkill_TinOre",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_TinOreName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_TinOreDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 8,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Ores",
+				"SpriteIndex": 0,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_iron",
+					"ore_item",
+					"use_reverse_name_for_sorting"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_NickelOre": {
+				"Name": "MistressAutumn.BlacksmithingSkill_NickelOre",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_NickelOreName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_NickelOreDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 12,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Ores",
+				"SpriteIndex": 1,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_iridium",
+					"ore_item",
+					"use_reverse_name_for_sorting"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_ChromeOre": {
+				"Name": "MistressAutumn.BlacksmithingSkill_ChromeOre",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_ChromeOreName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_ChromeOreDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 30,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Ores",
+				"SpriteIndex": 2,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_pink",
+					"ore_item",
+					"use_reverse_name_for_sorting"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_TungstenOre": {
+				"Name": "MistressAutumn.BlacksmithingSkill_TungstenOre",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_TungstenOreName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_TungstenOreDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 100,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Ores",
+				"SpriteIndex": 3,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_black",
+					"ore_item",
+					"use_reverse_name_for_sorting"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_TinBar": {
+				"Name": "MistressAutumn.BlacksmithingSkill_TinBar",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_TinBarName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_TinBarDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 90,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Bars",
+				"SpriteIndex": 0,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_iron",
+					"furnace_item",
+					"use_reverse_name_for_sorting"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_SteelBar": {
+				"Name": "MistressAutumn.BlacksmithingSkill_SteelBar",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_SteelBarName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_SteelBarDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 200,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Bars",
+				"SpriteIndex": 1,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_iron",
+					"furnace_item",
+					"use_reverse_name_for_sorting"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_BronzeBar": {
+				"Name": "MistressAutumn.BlacksmithingSkill_BronzeBar",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_BronzeBarName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_BronzeBarDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 100,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Bars",
+				"SpriteIndex": 2,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_copper",
+					"furnace_item",
+					"use_reverse_name_for_sorting"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_IridiumAlloyBar": {
+				"Name": "MistressAutumn.BlacksmithingSkill_IridiumAlloyBar",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_IridiumAlloyBarName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_IridiumAlloyBarDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 1800,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Bars",
+				"SpriteIndex": 3,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_iridium",
+					"furnace_item",
+					"use_reverse_name_for_sorting"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_NickelBar": {
+				"Name": "MistressAutumn.BlacksmithingSkill_NickelBar",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_NickelBarName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_NickelBarDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 180,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Bars",
+				"SpriteIndex": 4,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_iridium",
+					"furnace_item",
+					"use_reverse_name_for_sorting"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_InvarBar": {
+				"Name": "MistressAutumn.BlacksmithingSkill_InvarBar",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_InvarBarName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_InvarBarDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 200,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Bars",
+				"SpriteIndex": 5,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_lime",
+					"furnace_item",
+					"use_reverse_name_for_sorting"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_ChromeBar": {
+				"Name": "MistressAutumn.BlacksmithingSkill_ChromeBar",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_ChromeBarName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_ChromeBarDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 300,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Bars",
+				"SpriteIndex": 6,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_pink",
+					"furnace_item",
+					"use_reverse_name_for_sorting"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_StainlessSteelBar": {
+				"Name": "MistressAutumn.BlacksmithingSkill_StainlessSteelBar",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_StainlessSteelBarName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_StainlessSteelBarDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 350,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Bars",
+				"SpriteIndex": 7,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_iron",
+					"furnace_item",
+					"use_reverse_name_for_sorting"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_TungstenBar": {
+				"Name": "MistressAutumn.BlacksmithingSkill_TungstenBar",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_TungstenBarName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_TungstenBarDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 1000,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Bars",
+				"SpriteIndex": 8,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_black",
+					"furnace_item",
+					"use_reverse_name_for_sorting"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_TungstenSteelBar": {
+				"Name": "MistressAutumn.BlacksmithingSkill_TungstenSteelBar",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_TungstenSteelBarName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_TungstenSteelBarDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 1200,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Bars",
+				"SpriteIndex": 9,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_blue",
+					"furnace_item",
+					"use_reverse_name_for_sorting"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_CopperDust": {
+				"Name": "MistressAutumn.BlacksmithingSkill_CopperDust",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_CopperDustName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_CopperDustDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 5,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Dusts",
+				"SpriteIndex": 0,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_copper",
+					"furnace_item",
+					"use_reverse_name_for_sorting",
+					"blacksmithingskill_dust"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_IronDust": {
+				"Name": "MistressAutumn.BlacksmithingSkill_IronDust",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_IronDustName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_IronDustDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 10,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Dusts",
+				"SpriteIndex": 1,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_iron",
+					"furnace_item",
+					"use_reverse_name_for_sorting",
+					"blacksmithingskill_dust"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_GoldDust": {
+				"Name": "MistressAutumn.BlacksmithingSkill_GoldDust",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_GoldDustName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_GoldDustDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 25,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Dusts",
+				"SpriteIndex": 2,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_gold",
+					"furnace_item",
+					"use_reverse_name_for_sorting",
+					"blacksmithingskill_dust"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_IridiumDust": {
+				"Name": "MistressAutumn.BlacksmithingSkill_IridiumDust",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_IridiumDustName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_IridiumDustDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 100,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Dusts",
+				"SpriteIndex": 3,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_iridium",
+					"furnace_item",
+					"use_reverse_name_for_sorting",
+					"blacksmithingskill_dust"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_RadioactiveDust": {
+				"Name": "MistressAutumn.BlacksmithingSkill_RadioactiveDust",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_RadioactiveDustName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_RadioactiveDustDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 300,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Dusts",
+				"SpriteIndex": 4,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_lime",
+					"furnace_item",
+					"use_reverse_name_for_sorting",
+					"blacksmithingskill_dust"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_TinDust": {
+				"Name": "MistressAutumn.BlacksmithingSkill_TinDust",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_TinDustName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_TinDustDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 8,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Dusts",
+				"SpriteIndex": 5,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_iron",
+					"furnace_item",
+					"use_reverse_name_for_sorting",
+					"blacksmithingskill_dust"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_NickelDust": {
+				"Name": "MistressAutumn.BlacksmithingSkill_NickelDust",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_NickelDustName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_NickelDustDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 12,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Dusts",
+				"SpriteIndex": 6,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_iridium",
+					"furnace_item",
+					"use_reverse_name_for_sorting",
+					"blacksmithingskill_dust"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_ChromeDust": {
+				"Name": "MistressAutumn.BlacksmithingSkill_ChromeDust",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_ChromeDustName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_ChromeDustDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 30,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Dusts",
+				"SpriteIndex": 7,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_pink",
+					"furnace_item",
+					"use_reverse_name_for_sorting",
+					"blacksmithingskill_dust"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_TungstenDust": {
+				"Name": "MistressAutumn.BlacksmithingSkill_TungstenDust",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_TungstenDustName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_TungstenDustDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 100,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Dusts",
+				"SpriteIndex": 8,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_black",
+					"furnace_item",
+					"use_reverse_name_for_sorting",
+					"blacksmithingskill_dust"
+				]
+			},
+			//"MistressAutumn.BlacksmithingSkill_SteelDust": {
+			//	"Name": "MistressAutumn.BlacksmithingSkill_SteelDust",
+			//	"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_SteelDustName}}",
+			//	"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_SteelDustDescription}}",
+			//	"Edibility": "-300",
+			//	"Type": "Basic",
+			//	"Category": -15,
+			//	"Price": 15,
+			//	"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/AlloyDusts",
+			//	"SpriteIndex": 0,
+			//	"ExcludeFromShippingCollection": "false",
+			//	"ContextTags": [
+			//		"color_iron",
+			//		"furnace_item",
+			//		"use_reverse_name_for_sorting",
+			//		"blacksmithingskill_dust"
+			//	]
+			//},
+			"MistressAutumn.BlacksmithingSkill_BronzeDust": {
+				"Name": "MistressAutumn.BlacksmithingSkill_BronzeDust",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_BronzeDustName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_BronzeDustDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 10,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/AlloyDusts",
+				"SpriteIndex": 1,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_copper",
+					"furnace_item",
+					"use_reverse_name_for_sorting",
+					"blacksmithingskill_dust"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_InvarDust": {
+				"Name": "MistressAutumn.BlacksmithingSkill_InvarDust",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_InvarDustName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_InvarDustDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 20,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/AlloyDusts",
+				"SpriteIndex": 2,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_lime",
+					"furnace_item",
+					"use_reverse_name_for_sorting",
+					"blacksmithingskill_dust"
+				]
+			},
+			"MistressAutumn.BlacksmithingSkill_StainlessSteelDust": {
+				"Name": "MistressAutumn.BlacksmithingSkill_StainlessSteelDust",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_StainlessSteelDustName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_StainlessSteelDustDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 35,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/AlloyDusts",
+				"SpriteIndex": 3,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_iron",
+					"furnace_item",
+					"use_reverse_name_for_sorting",
+					"blacksmithingskill_dust"
+				]
+			},
+			//"MistressAutumn.BlacksmithingSkill_TungstenSteelDust": {
+			//	"Name": "MistressAutumn.BlacksmithingSkill_TungstenSteelDust",
+			//	"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_TungstenSteelDustName}}",
+			//	"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_TungstenSteelDustDescription}}",
+			//	"Edibility": "-300",
+			//	"Type": "Basic",
+			//	"Category": -15,
+			//	"Price": 120,
+			//	"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/AlloyDusts",
+			//	"SpriteIndex": 4,
+			//	"ExcludeFromShippingCollection": "false",
+			//	"ContextTags": [
+			//		"color_blue",
+			//		"furnace_item",
+			//		"use_reverse_name_for_sorting",
+			//		"blacksmithingskill_dust"
+			//	]
+			//},
+			"MistressAutumn.BlacksmithingSkill_CoalCoke": {
+				"Name": "MistressAutumn.BlacksmithingSkill_CoalCoke",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_CoalCokeName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_CoalCokeDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 30,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Objects",
+				"SpriteIndex": 0,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_black"
+				]
+			},
+			//"MistressAutumn.BlacksmithingSkill_CarbonDust": {
+			//	"Name": "MistressAutumn.BlacksmithingSkill_CarbonDust",
+			//	"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_CarbonDustName}}",
+			//	"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_CarbonDustDescription}}",
+			//	"Edibility": "-300",
+			//	"Type": "Basic",
+			//	"Category": -15,
+			//	"Price": 10,
+			//	"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Objects",
+			//	"SpriteIndex": 1,
+			//	"ExcludeFromShippingCollection": "false",
+			//	"ContextTags": [
+			//		"color_black"
+			//	]
+			//},
+			"MistressAutumn.BlacksmithingSkill_Creosote": {
+				"Name": "MistressAutumn.BlacksmithingSkill_Creosote",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_CreosoteName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_CreosoteDescription}}",
+				"Edibility": "-300",
+				"Type": "Basic",
+				"Category": -15,
+				"Price": 20,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Objects",
+				"SpriteIndex": 2,
+				"ExcludeFromShippingCollection": "false",
+				"ContextTags": [
+					"color_brown"
+				]
+			}
+		}
+	}
+	]
+}

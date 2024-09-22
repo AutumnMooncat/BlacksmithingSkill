@@ -1,0 +1,59 @@
+{
+	"Changes": [
+	{
+		"LogName": "Big Craftables",
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "Entries": {
+            "MistressAutumn.BlacksmithingSkill_AlloySmelter": {
+                "Name": "MistressAutumn.BlacksmithingSkill_AlloySmelter",
+                "DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_AlloySmelterName}}",
+                "Description": "{{i18n:MistressAutumn.BlacksmithingSkill_AlloySmelterDescription}}",
+                "Price": 50,
+                "Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/AlloySmelter",
+                "SpriteIndex": 0
+            },
+			"MistressAutumn.BlacksmithingSkill_Grinder": {
+                "Name": "MistressAutumn.BlacksmithingSkill_Grinder",
+                "DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_GrinderName}}",
+                "Description": "{{i18n:MistressAutumn.BlacksmithingSkill_GrinderDescription}}",
+                "Price": 50,
+                "Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Grinder",
+                "SpriteIndex": 0
+            },
+			"MistressAutumn.BlacksmithingSkill_PBF": {
+                "Name": "MistressAutumn.BlacksmithingSkill_PBF",
+                "DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_PBFName}}",
+                "Description": "{{i18n:MistressAutumn.BlacksmithingSkill_PBFDescription}}",
+                "Price": 50,
+                "Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/PrimitiveBlastFurnace",
+                "SpriteIndex": 0
+            },
+			"MistressAutumn.BlacksmithingSkill_Generator": {
+                "Name": "MistressAutumn.BlacksmithingSkill_Generator",
+                "DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_GeneratorName}}",
+                "Description": "{{i18n:MistressAutumn.BlacksmithingSkill_GeneratorDescription}}",
+                "Price": 50,
+                "Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Generator",
+                "SpriteIndex": 0
+            },
+			"MistressAutumn.BlacksmithingSkill_EBF": {
+                "Name": "MistressAutumn.BlacksmithingSkill_EBF",
+                "DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_EBFName}}",
+                "Description": "{{i18n:MistressAutumn.BlacksmithingSkill_EBFDescription}}",
+                "Price": 50,
+                "Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/EBF",
+                "SpriteIndex": 0
+            },
+			"MistressAutumn.BlacksmithingSkill_CokeOven": {
+                "Name": "MistressAutumn.BlacksmithingSkill_CokeOven",
+                "DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_CokeOvenName}}",
+                "Description": "{{i18n:MistressAutumn.BlacksmithingSkill_CokeOvenDescription}}",
+                "Price": 50,
+                "Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/CokeOven",
+                "SpriteIndex": 0
+            }
+        }
+    }
+	]
+}

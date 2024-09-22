@@ -1,0 +1,80 @@
+{
+	"Changes": [
+	{
+		"LogName": "Load Textures",
+		"Action": "Load",
+		"Target": "Mods/MistressAutumn.BlacksmithingSkill.CP/SmithingAnvil",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Mods/MistressAutumn.BlacksmithingSkill.CP/Bars",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Mods/MistressAutumn.BlacksmithingSkill.CP/AlloySmelter",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Mods/MistressAutumn.BlacksmithingSkill.CP/OreNodes",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Mods/MistressAutumn.BlacksmithingSkill.CP/Ores",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Mods/MistressAutumn.BlacksmithingSkill.CP/Grinder",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Mods/MistressAutumn.BlacksmithingSkill.CP/Dusts",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Mods/MistressAutumn.BlacksmithingSkill.CP/AlloyDusts",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Mods/MistressAutumn.BlacksmithingSkill.CP/PrimitiveBlastFurnace",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Mods/MistressAutumn.BlacksmithingSkill.CP/EBF",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Mods/MistressAutumn.BlacksmithingSkill.CP/Generator",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+	},
+	{
+         "Action": "Load",
+         "Target": "Mods/MistressAutumn.BlacksmithingSkill.CP/Tools",
+         "FromFile": "assets/tools.png"
+    },
+	{
+		"Action": "Load",
+		"Target": "Mods/MistressAutumn.BlacksmithingSkill.CP/CokeOven",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Mods/MistressAutumn.BlacksmithingSkill.CP/Objects",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Mods/MistressAutumn.BlacksmithingSkill.CP/Weapons",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+	}
+	]
+}

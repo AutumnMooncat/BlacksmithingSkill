@@ -1,0 +1,26 @@
+{
+	"Changes": [
+	{
+		"LogName": "Load Furniture",
+		"Action": "EditData",
+		"Target": "Data/Furniture",
+		"Entries": {
+			"MistressAutumn.BlacksmithingSkill_SmithingAnvil": "MistressAutumn.BlacksmithingSkill_SmithingAnvil/9/2 2/2 1/1/10000/2/{{i18n:MistressAutumn.BlacksmithingSkill_SmithingAnvil}}/0/Mods\\MistressAutumn.BlacksmithingSkill.CP\\SmithingAnvil/true"
+		}
+	},
+	{
+		"LogName": "Load Furniture Actions",
+        "Action": "EditData",
+        "Target": "sophie.Calcifer/FurnitureActions",
+        "Entries": {
+            "(F)MistressAutumn.BlacksmithingSkill_SmithingAnvil": {
+                "TileActions": [
+                    {
+                        "TileAction": "leclair.bettercrafting_OpenMenu FALSE FALSE MistressAutumn.BlacksmithingSkill_SmithingAnvil"
+                    }
+                ]
+            }
+        }
+    }
+	]
+}

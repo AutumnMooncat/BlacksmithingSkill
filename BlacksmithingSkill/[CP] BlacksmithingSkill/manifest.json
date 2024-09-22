@@ -1,0 +1,37 @@
+{
+  "Name": "[CP] Blacksmithing Skill",
+  "Author": "MistressAutumn",
+  "Version": "1.0.0",
+  "Description": "Blacksmithing Skill Content Patcher. Credits: https://ivoryred.itch.io/ https://merchant-shade.itch.io/",
+  "UniqueID": "MistressAutumn.BlacksmithingSkill.CP",
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+		"UniqueID": "MistressAutumn.BlacksmithingSkill",
+		"IsRequired": true
+    },
+	{
+		"UniqueID": "leclair.bettercrafting",
+		"IsRequired": true
+	},
+	{
+		"UniqueID": "sophie.Calcifer",
+		"IsRequired": true
+    },
+    {
+		"UniqueID": "MindMeltMax.CAF",
+		"IsRequired": true
+    },
+    {
+		"UniqueID": "selph.ExtraMachineConfig",
+		"IsRequired": true
+    },
+	{
+		"UniqueID": "mistyspring.ItemExtensions",
+		"isRequired": true
+	}
+  ],
+  "UpdateKeys": []
+}

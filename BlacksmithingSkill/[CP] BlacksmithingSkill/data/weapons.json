@@ -1,0 +1,112 @@
+{
+	"Changes": [
+	{
+		"LogName": "Editing Weapons",
+		"Action": "EditData",
+		"Target": "Data/Weapons",
+		"TargetField": [ "11" ],
+		"Entries": {
+			"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_SteelSmallsword_Name}}"
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Weapons",
+		"TargetField": [ "45" ],
+		"Entries": {
+			"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_WickedKris_Description}}"
+		}
+	},
+	{
+		"LogName": "Adding Weapons",
+		"Action": "EditData",
+		"Target": "Data/Weapons",
+		"Entries": {
+			"MistressAutumn.BlacksmithingSkill_SnowRod": {
+				"Name": "MistressAutumn.BlacksmithingSkill_SnowRod",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_SnowRodName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_SnowRodDescription}}",
+				"MinDamage": 25,
+				"MaxDamage": 25,
+				"Knockback": 1.0,
+				"Speed": -8,
+				"Precision": 0,
+				"Defense": 0,
+				"Type": 1,
+				"MineBaseLevel": -1,
+				"MineMinLevel": -1,
+				"AreaOfEffect": 0,
+				"CritChance": 0.02,
+				"CritMultiplier": 3.0,
+				"CanBeLostOnDeath": true,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Weapons",
+				"SpriteIndex": 0,
+				"Projectiles": [
+				{
+					"Id": "MistressAutumn.BlacksmithingSkill_SnowRodProjectile1",
+					"Damage": 10,
+					"Explodes": false,
+					"Bounces": 0,
+					"MaxDistance": 4,
+					"Velocity": 10,
+					"RotationVelocity": 32,
+					"TailLength": 1,
+					"MinAngleOffset": 0,
+					"MaxAngleOffset": 0,
+					"SpriteIndex": 6
+				},
+				{
+					"Id": "MistressAutumn.BlacksmithingSkill_SnowRodProjectile2",
+					"Damage": 10,
+					"Explodes": false,
+					"Bounces": 0,
+					"MaxDistance": 4,
+					"Velocity": 10,
+					"RotationVelocity": 32,
+					"TailLength": 1,
+					"MinAngleOffset": -25,
+					"MaxAngleOffset": -25,
+					"SpriteIndex": 6
+				},
+				{
+					"Id": "MistressAutumn.BlacksmithingSkill_SnowRodProjectile3",
+					"Damage": 10,
+					"Explodes": false,
+					"Bounces": 0,
+					"MaxDistance": 4,
+					"Velocity": 10,
+					"RotationVelocity": 32,
+					"TailLength": 1,
+					"MinAngleOffset": 25,
+					"MaxAngleOffset": 25,
+					"SpriteIndex": 6
+				}
+				],
+				"CustomFields": null
+			},
+			"MistressAutumn.BlacksmithingSkill_BombRod": {
+				"Name": "MistressAutumn.BlacksmithingSkill_BombRod",
+				"DisplayName": "{{i18n:MistressAutumn.BlacksmithingSkill_BombRodName}}",
+				"Description": "{{i18n:MistressAutumn.BlacksmithingSkill_BombRodDescription}}",
+				"MinDamage": 25,
+				"MaxDamage": 25,
+				"Knockback": 1.0,
+				"Speed": -20,
+				"Precision": 0,
+				"Defense": 0,
+				"Type": 1,
+				"MineBaseLevel": -1,
+				"MineMinLevel": -1,
+				"AreaOfEffect": 0,
+				"CritChance": 0.02,
+				"CritMultiplier": 3.0,
+				"CanBeLostOnDeath": true,
+				"Texture": "Mods/MistressAutumn.BlacksmithingSkill.CP/Weapons",
+				"SpriteIndex": 1,
+				"Projectiles": null,
+				"CustomFields": null
+			}
+		}
+	}
+	]
+}
